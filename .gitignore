@@ -1,0 +1,34 @@
+# Node Modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Build and Cache
+dist/
+.next/
+out/
+.cache/
+.vscode/
+.DS_Store
+
+# Logs
+logs/
+*.log
+yarn.lock
+package-lock.json
+
+# Tailwind and PostCSS
+postcss.config.js
+tailwind.config.js
+
+# Docker (if using)
+docker-compose.override.yml
+.dockerignore
